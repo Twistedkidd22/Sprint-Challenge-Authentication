@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Authentication Sprint Challenge",
   "main": "index.js",
+  "ignore": [
+    ".git",
+    "node_modules/**/node_modules"
+  ],
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -19,6 +23,7 @@
   "homepage": "https://github.com/LambdaSchool/Sprint-Challenge-Authentication#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "bcrypt": "^3.0.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.4",
     "express": "^4.16.3",
